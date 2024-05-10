@@ -1,0 +1,211 @@
+/*импортирую стиль Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*Основа*/
+body {
+    background-color: grey;
+    margin: 0%;
+    font: normal 16px "Roboto", sans-serif;
+}
+
+a {
+    color:#5795ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: #07ce57;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/*Инфо бокс*/
+.avatar{
+    height: 30%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.info p{
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h1, .info-text h3{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    
+    .info-text {
+        margin-left: 0px;
+    }
+
+}
+
+/*бокс модель*/
+.container{
+    background-color: #fff;
+    max-width: 950px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #e6fffb;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    padding-bottom: 10px;
+}
+
+/*Таблицы*/
+.MyExpereniceTable {
+    width: 100%;
+}
+
+.MyExpereniceTable td {
+    margin-bottom: 10px;
+}
+
+.MyExpereniceTable td:nth-child(2), .MyExpereniceTable td:nth-child(3) {
+    color: #86898f;
+}
+
+.TrainingTable {
+    width: 100%;
+}
+
+.TrainingTable td { 
+    margin-bottom: 10px;
+}
+
+.TrainingTable td:nth-child(1) {
+    padding-left: 25%;
+}
+
+.TrainingTable td:nth-child(2) {
+    padding-right: 25%;
+}
+
+
+/*Контактная форма*/
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: aqua;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #533333;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn{
+    background: grey;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: black;
+    transition-duration: 0.7s;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.social a {
+    text-decoration: none;
+    color: grey;
+    transition-duration: 0.7s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social a:hover {
+    color: black;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+
